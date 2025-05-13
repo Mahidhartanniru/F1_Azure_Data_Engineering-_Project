@@ -7,7 +7,7 @@ To design and orchestrate a Data Pipeline using Databricks and Azure to perform 
 Formula 1 Overview
 An Overview of Formula 1 racing can be learned from https://f1chronicle.com/a-beginners-guide-to-formula-1/
 
-![Azure-Databricks-Formula-1-Racing-Data-Engineering](https://drive.google.com/drive/my-drive)
+[![Azure-Databricks-Formula-1-Racing-Data-Engineering](https://github.com/Mahidhartanniru/F1_Azure_Data_Engineering-_Project/issues/1#issue-3059025188)
 
 # Data Source
 The data for all the formula 1 races from 1950s onwards is contained from an open source API called Ergest Developer API (http://ergast.com/mrd/). The API provides the following tables:
