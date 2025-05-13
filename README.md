@@ -11,7 +11,7 @@ An Overview of Formula 1 racing can be learned from https://f1chronicle.com/a-be
 
 # Data Source
 The data for all the formula 1 races from 1950s onwards is contained from an open source API called Ergest Developer API (http://ergast.com/mrd/). The API provides the following tables:
-![Azure-Databricks-Formula-1-Racing-Data-Engineering](https://drive.google.com/drive/my-drive)
+[![Azure-Databricks-Formula-1-Racing-Data-Engineering](https://drive.google.com/drive/my-drive)](https://github.com/Mahidhartanniru/F1_Azure_Data_Engineering-_Project/issues/1#issuecomment-2875339803)
 
 # Data Pipeline
 The data from Ergest Developer API is imported into raw ADLS container on Azure. We will then take this data and process using databricks notebook to ingest into ingested raw layer. The data in this layer will have schema applied as well stored in the columnar parquet format. We will create partitions wherever applicable as well as add additional information for audit purposes, such as a date, a source of the data, etc. Ingested data will then be transformed via databricks notebook for presentation layer where dashboards are created to satisfy our requirements for analysis. Azure Data Factory is later used for scheduling and monitoring requirements. This pipeline is later converted into Delta LakeHouse architecture to satisfy other requirements around GDPR, time travel, etc.
